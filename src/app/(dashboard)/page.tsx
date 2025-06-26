@@ -30,9 +30,6 @@ export default function Home() {
 
   return (
     <>
-      <div className="mb-4">
-        <UIDCard uuid={userInfo?.users?.uuid || 'Loading...'} />
-      </div>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_350px] gap-4 h-full overflow-hidden">
         <div className="flex flex-col space-y-2 h-full">
           <div className="mt-14">
@@ -43,6 +40,9 @@ export default function Home() {
         <div className="flex flex-col space-y-2 min-w-[350px]">
           <Statistics data={data.cash_flow_statistics} />
           <Market />
+        </div>
+        <div className="mb-4">
+          <UIDCard uuid={userInfo?.users?.uuid || 'Loading...'} />
         </div>
       </div>
     </>
