@@ -66,7 +66,7 @@ export const Header = () => {
       setToasterOpen(true);
       setToasterMessage(data.message);
       CookieService.remove('access_token');
-      window.location.href = "https://glovertrade.io/";
+      window.location.href = "https://phoneixtrading.com/";
     },
     onError: (error) => {
       setToasterOpen(true);
@@ -90,7 +90,7 @@ export const Header = () => {
         <div className="text-xl font-bold text-gray-800 dark:text-white">
           <div className="flex items-center gap-[10px]">
             <div className="hidden md:flex items-center gap-[10px]">
-              <Link href="https://glovertrade.io/">
+              <Link href="https://phoneixtrading.com/">
                 <Image
                   src={logo}
                   alt="Crypt Logo"

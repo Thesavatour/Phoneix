@@ -46,7 +46,7 @@ function SignInForm({ isLoadingSignIn, register, onLogin, errors }: Props) {
     >
       <header className="flex justify-center flex-col items-center">
         <div className="flex gap-2 items-center mb-[18px]">
-          <Link href="https://glovertrade.io/">
+          <Link href="https://phoneixtrading.com/">
             <Image
               src={logo}
               height={400}
