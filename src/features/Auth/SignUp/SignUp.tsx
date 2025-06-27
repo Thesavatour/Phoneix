@@ -73,7 +73,7 @@ function SignUp() {
       <div className="flex justify-between items-center p-6 md:flex-nowrap flex-wrap  gap-6">
         <div className="w-full sm:w-1/2  md:w-full">
           <div className="flex gap-2 items-center mb-[18px]">
-            <Link href="https://phoneixtrading.com/">
+            <Link className="z-10" href="https://phoneixtrading.com/">
               <Image
                 src={logo}
                 height={100}
