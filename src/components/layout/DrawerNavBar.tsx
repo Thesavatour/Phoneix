@@ -60,7 +60,7 @@ const DrawerNavBar = ({ isOpen, onClose }: DrawerNavBarProps) => {
       >
         <div className="flex justify-between items-center mb-4">
           <div className="flex items-center gap-2">
-            <Link href="https://glovertrade.io/">
+            <Link href="https://phoneixtrading.com/">
               <Image
                 src={logo}
                 height={400}
