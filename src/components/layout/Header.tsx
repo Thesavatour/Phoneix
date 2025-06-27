@@ -66,7 +66,7 @@ export const Header = () => {
       setToasterOpen(true);
       setToasterMessage(data.message);
       CookieService.remove('access_token');
-      window.location.href = "https://glovertrade.io/";
+      window.location.href = "https://phoneixtrading.com/";
     },
     onError: (error) => {
       setToasterOpen(true);
